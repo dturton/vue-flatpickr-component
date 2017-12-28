@@ -94,6 +94,12 @@
       onInput(event) {
         this.$emit('input', event.target.value);
       },
+      open() {
+        this.fp.open()
+      },
+      close() {
+        this.fp.close()
+      },
     },
     watch: {
       /**
